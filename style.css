@@ -1,56 +1,162 @@
 :root {
   --text-color: rgb(0, 0, 0);
   --text-color-green: rgb(0, 98, 94);
+  --text-color-darkgreen: rgb(0, 79, 76);
   --text-color-lightgreen: rgb(246, 250, 252);
 }
 
 
 body {
-  padding: 5,5%;
+  margin: 0;
   font-family: "Onest", sans-serif;
   font-size: 24px;
+  width: 100%;
   color: var(--text-color);
- 
-}
-
-.site-menu {
-  display: flex;
-  width: 80%;
-  background-color: var(--text-color-lightgreen);
-  padding: 1em 1em;
-  justify-content: space-between;
-  font-size: 20px;
-  align-items: flex-start;
 }
 
 .nav-links {
   display: flex;
   gap: 2em;
-  padding-left: 55px;
+}
+
+.site-menu {
+  display: flex;
+  width: 100%;
+  padding: 0 55px;
+  justify-content: space-between;
+  font-size: 20px;
+  align-items:center;
+  background-color: rgb(182, 229, 240);
+}
+
+
+header {
+  max-height: 69px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  vertical-align: center;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto; 
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+}
+
+.rectangle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1000px;
+  max-height: 500px;
+  min-height: 500px;
+  background-color: rgb(182, 229, 240);
+}
+
+.mainpic {
+  max-width: 100%;
+  max-height: 500px;
+  margin: 0;
   padding-right: 55px;
 }
 
-.firstblock {
-display: flex
-width
-justify-content: space-between;
-}
 
 h1 {
-font-family: Neucha;
-font-size: 2rem;
+  font-family: Neucha;
+  line-height: 1em;
+  font-size: 2.5em;
+  color: var(--text-color-darkgreen);
+  padding: 1em 0;
+  padding-left: 55px;
+  justify-content: flex-start;
 }
-
 
 .h3 {
-font-size: 45;
+  font-size: 1em;
+  font-weight: bold;
 }
 
-
-a {
-  color: var(--text-color-green);
+.content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 30px;
+  max-height: 500px;
 }
 
+.content-title {
+  font-size: 30px;
 
+}
+ 
+
+.yogurt-pic {
+display: flex;
+}
+
+.content-text{
+display: flex;
+flex-direction: column;
+align-items: stretch;
+width: 100%;
+max-width: 540px;
+box-sizing: border-box;
+justify-content: space-between;
+margin: 55px 55px 0px 0px;
+flex-grow: 1;
+height: 100%;
+max-height: 500px;
+}
+
+.button-container {
+  align-self: flex-start; 
+  margin-top: auto;
+
+}
+
+button {
+padding: 0.5em 1em;
+text-align: center;
+color: white;
+background-color: #005185;
+}
+
+.footer-menu {
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 20%;
+}
+
+.footer-left {
+  margin-right: 10%;
+  width: 100%;
+  max-width: 400px;
+  padding-left: 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content:flex-start;
+  flex-direction: row;
+  gap: 20px;
+  align-items: flex-start;
+  font-size: 0.5em;
+  
+}
+
+.footer-menu-ul {
+  line-height: 25px;
+}
 
 
