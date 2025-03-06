@@ -1,0 +1,56 @@
+:root {
+  --text-color: rgb(0, 0, 0);
+  --text-color-green: rgb(0, 98, 94);
+  --text-color-lightgreen: rgb(246, 250, 252);
+}
+
+
+body {
+  padding: 5,5%;
+  font-family: "Onest", sans-serif;
+  font-size: 24px;
+  color: var(--text-color);
+ 
+}
+
+.site-menu {
+  display: flex;
+  width: 80%;
+  background-color: var(--text-color-lightgreen);
+  padding: 1em 1em;
+  justify-content: space-between;
+  font-size: 20px;
+  align-items: flex-start;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2em;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+
+.firstblock {
+display: flex
+width
+justify-content: space-between;
+}
+
+h1 {
+font-family: Neucha;
+font-size: 2rem;
+}
+
+
+.h3 {
+font-size: 45;
+}
+
+
+a {
+  color: var(--text-color-green);
+}
+
+
+
+
